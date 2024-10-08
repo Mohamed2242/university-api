@@ -1,0 +1,994 @@
+[
+  {
+    "ContainingType": "UniversityAPI.Controllers.AssistantController",
+    "Method": "EditStudentDegreesForAssistantAsync",
+    "RelativePath": "api/Assistant/EditStudentDegreesForAssistant/{email}/{courseId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentDegreeDto",
+        "Type": "UniversityAPI.Application.DTOs.StudentDegreeUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.AssistantController",
+    "Method": "GetAssistantByEmailAsync",
+    "RelativePath": "api/Assistant/GetAssistant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.AssistantController",
+    "Method": "GetCoursesForAssistantAsync",
+    "RelativePath": "api/Assistant/GetCoursesForAssistant/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.AssistantController",
+    "Method": "GetStudentsByCourseAsync",
+    "RelativePath": "api/Assistant/GetStudentsByCourse/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.AssistantController",
+    "Method": "GetStudentsDegreesForCourseAsync",
+    "RelativePath": "api/Assistant/GetStudentsDegreesForCourse/{email}/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.DoctorController",
+    "Method": "EditStudentDegreesForDoctorAsync",
+    "RelativePath": "api/Doctor/EditStudentDegreesForDoctor/{email}/{courseId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentDegreeDto",
+        "Type": "UniversityAPI.Application.DTOs.StudentDegreeUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.DoctorController",
+    "Method": "GetCoursesForDoctorsAsync",
+    "RelativePath": "api/Doctor/GetCoursesForDoctor/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.DoctorController",
+    "Method": "GetDoctorByEmailAsync",
+    "RelativePath": "api/Doctor/GetDoctorByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.DoctorController",
+    "Method": "GetStudentsByCourseAndStudentIdAsync",
+    "RelativePath": "api/Doctor/GetStudentsByCourseAndStudentId/{courseId}/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.DoctorController",
+    "Method": "GetStudentsDegreesForCourseAsync",
+    "RelativePath": "api/Doctor/GetStudentsDegreesForCourse/{email}/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddAssistant",
+    "RelativePath": "api/Employee/add/assistant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assistantDto",
+        "Type": "UniversityAPI.Application.DTOs.AssistantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddCourse",
+    "RelativePath": "api/Employee/add/course",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDto",
+        "Type": "UniversityAPI.Application.DTOs.CourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Employee/add/department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDto",
+        "Type": "UniversityAPI.Application.DTOs.DepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/Employee/add/doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorDto",
+        "Type": "UniversityAPI.Application.DTOs.DoctorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee/add/employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "UniversityAPI.Application.DTOs.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Employee/add/student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentDto",
+        "Type": "UniversityAPI.Application.DTOs.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "AddAdmin",
+    "RelativePath": "api/Employee/add/superAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "UniversityAPI.Application.DTOs.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteAssistant",
+    "RelativePath": "api/Employee/delete/assistant/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Employee/delete/course/{courseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/Employee/delete/department",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDto",
+        "Type": "UniversityAPI.Application.DTOs.DepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteDoctor",
+    "RelativePath": "api/Employee/delete/doctor/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employee/delete/employee/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Employee/delete/student/{email}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "api/Employee/get/allAdmins/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllAssistants",
+    "RelativePath": "api/Employee/get/allAssistants/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllCourses",
+    "RelativePath": "api/Employee/get/allCourses/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllCoursesForAssistants",
+    "RelativePath": "api/Employee/get/allCoursesForAssistants/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/Employee/get/allDepartments/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/Employee/get/allDoctors/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Employee/get/allStudents/{faculty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetAssistant",
+    "RelativePath": "api/Employee/get/assistant/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetCourse",
+    "RelativePath": "api/Employee/get/course/{faculty}/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetCoursesByName",
+    "RelativePath": "api/Employee/get/coursesByName/{faculty}/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetCoursesByNameAndSemester",
+    "RelativePath": "api/Employee/get/coursesByNameAndSemester/{faculty}/{semester}/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "semester",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetCoursesBySemester",
+    "RelativePath": "api/Employee/get/coursesBySemester/{faculty}/{semester}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faculty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "semester",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetDepartment",
+    "RelativePath": "api/Employee/get/department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDto",
+        "Type": "UniversityAPI.Application.DTOs.DepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetDoctor",
+    "RelativePath": "api/Employee/get/doctor/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/Employee/get/employee/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Employee/get/student/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateAssistant",
+    "RelativePath": "api/Employee/update/assistant",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assistantDto",
+        "Type": "UniversityAPI.Application.DTOs.AssistantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateCourse",
+    "RelativePath": "api/Employee/update/course",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDto",
+        "Type": "UniversityAPI.Application.DTOs.CourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Employee/update/department",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDto",
+        "Type": "UniversityAPI.Application.DTOs.DepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateDoctor",
+    "RelativePath": "api/Employee/update/doctor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorDto",
+        "Type": "UniversityAPI.Application.DTOs.DoctorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Employee/update/employee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "UniversityAPI.Application.DTOs.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.EmployeeController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Employee/update/student",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentDto",
+        "Type": "UniversityAPI.Application.DTOs.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.HomeController",
+    "Method": "Login",
+    "RelativePath": "api/Home/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "UniversityAPI.Application.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.HomeController",
+    "Method": "Refresh",
+    "RelativePath": "api/Home/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenApiDto",
+        "Type": "UniversityAPI.Application.DTOs.TokenApiDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.HomeController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Home/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPasswordDto",
+        "Type": "UniversityAPI.Application.DTOs.ResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.HomeController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Home/send-reset-email/{backupEmail}/{email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "backupEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "GetStudentByEmail",
+    "RelativePath": "api/Student/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "GetAvailableCourses",
+    "RelativePath": "api/Student/available-courses/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "GetStudentDegrees",
+    "RelativePath": "api/Student/get/degrees/{email}/{semester}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "semester",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "GetCGPAAsync",
+    "RelativePath": "api/Student/GetCGPA/{studentEmail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "GetGPAAsync",
+    "RelativePath": "api/Student/GetGPA/{studentEmail}/{semester}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "semester",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "UpdateStudentRegistration",
+    "RelativePath": "api/Student/hasRegisteredCourses/{email}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "RegisterCourses",
+    "RelativePath": "api/Student/register-courses/{email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "selectedCoursesIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversityAPI.Controllers.StudentController",
+    "Method": "SavePetition",
+    "RelativePath": "api/Student/save-petition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "petitionRequestDto",
+        "Type": "UniversityAPI.Application.DTOs.PetitionRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

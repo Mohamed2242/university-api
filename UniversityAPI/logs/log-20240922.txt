@@ -1,0 +1,33 @@
+2024-09-22 23:00:14.517 +03:00 [INF] User profile is available. Using 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-22 23:00:14.581 +03:00 [INF] Creating key {9fa22e09-b561-4625-bcee-826594a7cdb1} with creation date 2024-09-22 20:00:14Z, activation date 2024-09-24 18:56:50Z, and expiration date 2024-12-21 20:00:14Z.
+2024-09-22 23:00:14.588 +03:00 [INF] Writing data to file 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys\key-9fa22e09-b561-4625-bcee-826594a7cdb1.xml'.
+2024-09-22 23:00:14.735 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-09-22 23:00:14.778 +03:00 [INF] Now listening on: https://localhost:7045
+2024-09-22 23:00:14.779 +03:00 [INF] Now listening on: http://localhost:5101
+2024-09-22 23:00:14.816 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 23:00:14.816 +03:00 [INF] Hosting environment: Development
+2024-09-22 23:00:14.816 +03:00 [INF] Content root path: E:\Web Projects\,Net\UniversityApp\UniversityAPI\UniversityAPI
+2024-09-22 23:00:17.839 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger - null null
+2024-09-22 23:00:17.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger - 301 0 null 141.6979ms
+2024-09-22 23:00:17.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/index.html - null null
+2024-09-22 23:00:18.029 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/index.html - 200 null text/html;charset=utf-8 49.6715ms
+2024-09-22 23:00:18.043 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/swagger-ui.css - null null
+2024-09-22 23:00:18.047 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/index.css - null null
+2024-09-22 23:00:18.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-22 23:00:18.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/swagger-ui-bundle.js - null null
+2024-09-22 23:00:18.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/index.js - null null
+2024-09-22 23:00:18.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-22 23:00:18.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 46.0068ms
+2024-09-22 23:00:18.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/index.js - 200 null application/javascript;charset=utf-8 47.8242ms
+2024-09-22 23:00:18.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/_vs/browserLink - null null
+2024-09-22 23:00:18.100 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-09-22 23:00:18.100 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/index.css - 200 202 text/css 53.6162ms
+2024-09-22 23:00:18.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.4489ms
+2024-09-22 23:00:18.203 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-22 23:00:18.203 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-22 23:00:18.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 154.8439ms
+2024-09-22 23:00:18.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/swagger-ui.css - 200 152034 text/css 160.6492ms
+2024-09-22 23:00:18.354 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-22 23:00:18.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 305.286ms
+2024-09-22 23:00:18.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7045/swagger/v1/swagger.json - null null
+2024-09-22 23:00:18.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7045/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.3589ms

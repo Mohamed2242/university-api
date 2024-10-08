@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\application\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\application\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\core\\helpers\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\core\\helpers\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|e:\\web projects\\,net\\universityapp\\universityapi\\universityapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85C2D418-5ECF-405E-8D0A-5AE1A159BA95}|UniversityAPI\\UniversityAPI.csproj|solutionrelative:universityapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "UniversityAPI\\Controllers\\DoctorController.cs",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "UniversityAPI\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:30:46.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Application\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "UniversityAPI\\Application\\Repositories\\DoctorRepository.cs",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Application\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "UniversityAPI\\Application\\Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:29:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "UniversityAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "UniversityAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwHMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:12:29.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailBody.cs",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Core\\Helpers\\EmailBody.cs",
+              "RelativeDocumentMoniker": "UniversityAPI\\Core\\Helpers\\EmailBody.cs",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Core\\Helpers\\EmailBody.cs",
+              "RelativeToolTip": "UniversityAPI\\Core\\Helpers\\EmailBody.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:15:17.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UniversityAPI\\appsettings.json",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\appsettings.json",
+              "RelativeToolTip": "UniversityAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T13:11:18.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UniversityAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Web Projects\\,Net\\UniversityApp\\UniversityAPI\\UniversityAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UniversityAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:59:54.628Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
